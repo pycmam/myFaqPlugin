@@ -1,0 +1,11 @@
+# FAQ
+myFaqItem:
+  tableName: app_faq_items
+  actAs:
+    I18n:
+      fields: [question, answer]
+  columns:
+    group_name:             { type: string(64), notnull: true }
+    #I18n
+    question:               { type: string, notnull: true }
+    answer:                 { type: string, notnull: true }

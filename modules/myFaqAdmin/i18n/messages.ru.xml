@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="ru" datatype="plaintext" original="messages" date="2009-06-14T22:42:09Z" product-name="messages">
+    <header/>
+    <body>
+      <!-- Категории вопросов -->
+      <trans-unit>
+        <source>1_faq_top10</source>
+        <target>10 наиболее часто задаваемых вопросов</target>
+      </trans-unit>
+      <trans-unit>
+        <source>2_faq_search</source>
+        <target>Поиск</target>
+      </trans-unit>
+      <trans-unit>
+        <source>3_faq_room_types</source>
+        <target>Типы номеров и квартир</target>
+      </trans-unit>
+      <trans-unit>
+        <source>4_faq_price</source>
+        <target>Цены</target>
+      </trans-unit>
+      <trans-unit>
+        <source>5_faq_booking</source>
+        <target>Бронирование</target>
+      </trans-unit>
+      <trans-unit>
+        <source>6_faq_pay</source>
+        <target>Оплата</target>
+      </trans-unit>
+      <trans-unit>
+        <source>7_faq_service</source>
+        <target>Порядок проживания и услуги в отеле</target>
+      </trans-unit>
+      <trans-unit>
+        <source>8_faq_routes</source>
+        <target>Маршрут проезда до отеля</target>
+      </trans-unit>
+      <trans-unit>
+        <source>9_faq_other</source>
+        <target>Другое</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

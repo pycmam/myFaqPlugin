@@ -1,0 +1,32 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           myFaqItem
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          my_faq_item
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        group_name:     { label: Категория }
+        question:       { label: Вопрос }
+        answer:         { label: Ответ }
+      list:
+        title:          "F.A.Q."
+        display:        [_group_name, =question]
+        object_actions:
+          _edit: ~
+          _delete:
+            credentials: Superadmin
+      filter:  ~
+      form:    ~
+      edit:
+        title:          Редактирование "%%question%%"
+      new:
+        title:          Новый вопрос

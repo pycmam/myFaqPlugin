@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2009-06-14T22:42:09Z" product-name="messages">
+    <header/>
+    <body>
+      <!-- Категории вопросов -->
+      <trans-unit>
+        <source>1_faq_top10</source>
+        <target>Top 10 questions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>2_faq_search</source>
+        <target>Search</target>
+      </trans-unit>
+      <trans-unit>
+        <source>3_faq_room_types</source>
+        <target>Rooms and apartments</target>
+      </trans-unit>
+      <trans-unit>
+        <source>4_faq_price</source>
+        <target>Rates</target>
+      </trans-unit>
+      <trans-unit>
+        <source>5_faq_booking</source>
+        <target>Booking</target>
+      </trans-unit>
+      <trans-unit>
+        <source>6_faq_pay</source>
+        <target>Pay</target>
+      </trans-unit>
+      <trans-unit>
+        <source>7_faq_service</source>
+        <target>Living rules and services</target>
+      </trans-unit>
+      <trans-unit>
+        <source>8_faq_routes</source>
+        <target>Directions to the hotel</target>
+      </trans-unit>
+      <trans-unit>
+        <source>9_faq_other</source>
+        <target>Other</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
