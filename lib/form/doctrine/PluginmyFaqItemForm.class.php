@@ -14,6 +14,9 @@ abstract class PluginmyFaqItemForm extends BasemyFaqItemForm
     {
         parent::setup();
 
+        $choices = array_combine(sfConfig::get('app_faq_groups'), sfConfig::get('app_faq_groups'));
+        $this->widgetSchema['group_name'] = new sfWidgetFormChoice(array('choices' => $choices));
+
         $this->embedI18n(array('ru', 'en'));
     }
 }

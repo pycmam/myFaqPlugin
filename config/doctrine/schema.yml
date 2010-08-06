@@ -1,6 +1,6 @@
 # FAQ
 myFaqItem:
-  tableName: app_faq_items
+  tableName: my_faq_items
   actAs:
     I18n:
       fields: [question, answer]

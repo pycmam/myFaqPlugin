@@ -1,0 +1,12 @@
+#myFaqAdmin:
+#  class: sfDoctrineRouteCollection
+#  options:
+#    model:                myFaqItem
+#    module:               myFaqAdmin
+#    prefix_path:          /myFaqAdmin
+#    column:               id
+#    with_wildcard_routes: true
+#
+#myFaq:
+#  url: /faq
+#  params: { module: myFaq, actions: index }

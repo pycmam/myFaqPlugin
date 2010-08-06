@@ -1,1 +1,1 @@
-<?php echo __($faq_item->getGroupName()) ?>
+<?php echo __($my_faq_item->getGroupName()) ?>
