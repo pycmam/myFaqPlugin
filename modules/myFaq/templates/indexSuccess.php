@@ -1,4 +1,10 @@
 <?php
+/**
+ * FAQ
+ *
+ * @param array $groups
+ */
+
 $groupNames = array_keys($groups->getRawValue())
 ?>
 <script type="text/javascript">

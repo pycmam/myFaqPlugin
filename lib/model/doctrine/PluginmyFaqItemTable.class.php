@@ -27,7 +27,8 @@ class PluginmyFaqItemTable extends myBaseTable
         $items = $this->withI18n(null, 'a')
             ->orderBy('a.group_name')
             ->addOrderBy('atrans.question')
-            ->execute()->getData();
+            ->execute()
+            ->getData();
 
         $groups = array();
         foreach ($items as $item) {

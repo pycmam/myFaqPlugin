@@ -3,7 +3,7 @@ myFaqItem:
   tableName: my_faq_items
   actAs:
     I18n:
-      fields: [question, answer]
+      fields:               [question, answer]
   columns:
     group_name:             { type: string(64), notnull: true }
     #I18n
