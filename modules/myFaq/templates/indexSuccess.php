@@ -25,7 +25,7 @@ $(function(){
 });
 </script>
 
-<div id="faqGroups" class="shadowBlock">
+<div id="faqGroups" class="shadow-block">
     <h3><?php echo __('FAQ') ?></h3>
     <ul>
     <?php foreach($groupNames as $groupName): ?>
